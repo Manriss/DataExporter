@@ -2,9 +2,14 @@
 Beta Version (Navisworks 2019)
 
 Installation:
+
 1-Copy folder DATAEXPORTER.MGD to "C:\Program Files\Autodesk\Navisworks Manage 2019\Plugins"
+
 2-Run Navisworks
+
 3-Go to View/Windows and activate the plugin.
+
+How it works:
 
 1-Select up to 5 elements and then click "select properties", then, select the properties that you will export later.
 
