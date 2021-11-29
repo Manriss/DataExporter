@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DATAEXPORTER.MGD
+</name>
+</assembly>
+<members>
+<member name="T:DATAEXPORTER.MGD.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:DATAEXPORTER.MGD.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:DATAEXPORTER.MGD.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:DATAEXPORTER.MGD.My.Resources.Resources.Alerta">
+<summary>
+  Busca una cadena traducida similar a Este plugin NO selecciona los elementos a exportar NI altera la selección hecha por el usuario.
+El plugin exportará aquellos objetos que el usuario seleccione, dependiendo de la resolución de selección configurada y la manera de seleccionar los objetos, la selección puede ir desde un modelo entero hasta la geometría del objeto (y sus propiedades son diferentes)
+Los resultados obtenidos pueden ser muy diferentes. 
+Se recomienda usar la herramienta de busqueda integrada en Navisworks para seleccionar con l [resto de la cadena truncado]&quot;;.
+</summary>
+</member>
+<member name="P:DATAEXPORTER.MGD.My.Resources.Resources.Warning">
+<summary>
+  Busca una cadena traducida similar a This plugin do not select elements to be exported, it will export the user selection.
+SELECTION IS THE KEY, it is critical to be aware on how Navisworks works when selecting elements. It is recomended to use Navisworks search tools for precise selection of elements. Use the plugin at your own risk..
+</summary>
+</member>
+<member name="M:DATAEXPORTER.MGD.Common.tiposDatoNavis(Autodesk.Navisworks.Api.DataProperty)">
+ <summary>
+ Obtiene el valor de la propiedad en formato string
+ </summary>
+ <param name="dato"></param>
+ <returns></returns>
+</member>
+<member name="M:DATAEXPORTER.MGD.listaDatos.btnExportSeleccion_Click(System.Object,System.EventArgs)">
+ <summary>
+ Exporta los elementos seleccionados
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DATAEXPORTER.MGD.listaDatos.listaDatos_Load(System.Object,System.EventArgs)">
+ <summary>
+ Utilido el evento de seleccion para activar el boton de seleccionar propiedades
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:DATAEXPORTER.MGD.listaDatos.seleccionActualizada">
+ <summary>
+ Solo podre utilizar la seleccion si tengo menos de 6 elementos
+ </summary>
+</member>
+</members>
+</doc>
