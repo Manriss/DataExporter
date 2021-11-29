@@ -1,6 +1,8 @@
 # DataExporter
-Beta Version
-
+Beta Version (Navisworks 2019)
+Installation:
+1-Copy folder DATAEXPORTER.MGD to "C:\Program Files\Autodesk\Navisworks Manage 2019\Plugins"
+2-Run Naviswo
 1-Select up to 5 elements and then click "select properties", then, select the properties that you will export later.
 
 2-Select the elements to be exported (Will export only the properties you selected before), click "Get properties from selected elements"
@@ -14,5 +16,6 @@ Many other filters can be implemented, even an excel like filter, (http://object
 "Filtering and TreeListViews interact in a predictable but perhaps unexpected fashion.
 Filtering considers only rows that are currently exposed (that is, all their ancestorss are expanded)."
 because of that is is not activated.
+
 
 Use the plugin at your own risk
