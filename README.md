@@ -5,9 +5,11 @@ Installation:
 
 1-Copy folder DATAEXPORTER.MGD to "C:\Program Files\Autodesk\Navisworks Manage 2019\Plugins"
 
-2-Run Navisworks
+2-Copy the content of the folder Dependencies to "C:\Program Files\Autodesk\Navisworks Manage 2019\Dependencies"
 
-3-Go to View/Windows and activate the plugin.
+3-Run Navisworks
+
+4-Go to View/Windows and activate the plugin.
 
 How it works:
 
