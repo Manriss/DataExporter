@@ -28,4 +28,5 @@ Filtering considers only rows that are currently exposed (that is, all their anc
 because of that is is not activated.
 
 
+I am not a professional programmer, I am self-taught and a BIM enthusiast.
 Use the plugin at your own risk
